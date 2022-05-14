@@ -1,0 +1,7 @@
+{
+  "packageName": "StacksBlockchainApi",
+  "apiPackage": "Api",
+  "modelPackage": "Model",
+  "invokerPackage": "StacksBlockchainApi",
+  "artifactVersion": "1.0.0"
+}

@@ -1,0 +1,13 @@
+{
+  "apiPackage": "so.hiro.stacks-blockchain-api-client.api",
+  "modelPackage": "so.hiro.stacks-blockchain-api-client.model",
+  "invokerPackage": "so.hiro.stacks-blockchain-api-client",
+  "artifactDescription": "Stacks Blockchain API Client",
+  "artifactId": "stacks-blockchain-api-client",
+  "artifactUrl": "https://github.com/hirosystems",
+  "artifactVersion": "1.0.0",
+  "developerName": "Hiro Systems PBC",
+  "developerEmail": "engineering@hiro.so",
+  "developerOrganization": "Hiro Systems PBC",
+  "developerOrganizationUrl": "https://hiro.so"
+}

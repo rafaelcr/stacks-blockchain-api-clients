@@ -1,0 +1,25 @@
+{
+  "name": "stacks-blockchain-api-clients",
+  "author": "",
+  "version": "1.0.0",
+  "description": "",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "config": {
+    "openapi_spec": "https://raw.githubusercontent.com/hirosystems/stacks-blockchain-api/gh-pages/openapi.resolved.yaml",
+    "generate": "openapi-generator-cli generate --skip-validate-spec -i $npm_package_config_openapi_spec"
+  },
+  "scripts": {
+    "build": "npm-run-all generate:*",
+    "generate:dart": "rimraf ./clients/dart && $npm_package_config_generate -g dart -c ./config/dart.json -o ./clients/dart",
+    "generate:java": "rimraf ./clients/java && $npm_package_config_generate -g java -c ./config/java.json -o ./clients/java",
+    "generate:php": "rimraf ./clients/php && $npm_package_config_generate -g php -c ./config/php.json -o ./clients/php",
+    "generate:ruby": "rimraf ./clients/ruby && $npm_package_config_generate -g ruby -c ./config/ruby.json -o ./clients/ruby",
+    "generate:swift5": "rimraf ./clients/swift5 && $npm_package_config_generate -g swift5 -c ./config/swift5.json -o ./clients/swift5"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.5.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2"
+  }
+}

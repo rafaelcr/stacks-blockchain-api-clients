@@ -1,0 +1,10 @@
+{
+  "projectName": "Stacks Blockchain API Client",
+  "podAuthors": "Hiro Systems PBC",
+  "podDescription": "Stacks Blockchain API Client",
+  "podDocumentationURL": "https://docs.hiro.so/api",
+  "podHomepage": "https://github.com/hirosystems",
+  "podLicense": "GPL-3.0",
+  "podVersion": "1.0.0",
+  "swiftPackagePath": "StacksBlockchainAPIClient/Classes"
+}

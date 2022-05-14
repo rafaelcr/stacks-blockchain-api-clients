@@ -1,0 +1,24 @@
+
+
+# RosettaCoinChange
+
+CoinChange is used to represent a change in state of a some coin identified by a coin_identifier. This object is part of the Operation model and must be populated for UTXO-based blockchains. Coincidentally, this abstraction of UTXOs allows for supporting both account-based transfers and UTXO-based transfers on the same blockchain (when a transfer is account-based, don't populate this model).
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**coinIdentifier** | [**RosettaAccountBalanceResponseCoinIdentifier**](RosettaAccountBalanceResponseCoinIdentifier.md) |  | 
+**coinAction** | [**CoinActionEnum**](#CoinActionEnum) | CoinActions are different state changes that a Coin can undergo. When a Coin is created, it is coin_created. When a Coin is spent, it is coin_spent. It is assumed that a single Coin cannot be created or spent more than once. | 
+
+
+
+## Enum: CoinActionEnum
+
+Name | Value
+---- | -----
+CREATED | &quot;coin_created&quot;
+SPENT | &quot;coin_spent&quot;
+
+
+

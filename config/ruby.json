@@ -1,0 +1,9 @@
+{
+  "gemName": "stacks_blockchain_api_client",
+  "gemAuthor": "Hiro Systems PBC",
+  "gemAuthorEmail": "engineering@hiro.so",
+  "gemLicense": "GPL-3.0",
+  "gemHomepage": "https://github.com/hirosystems",
+  "gemVersion": "1.0.0",
+  "moduleName": "StacksBlockchainApi"
+}

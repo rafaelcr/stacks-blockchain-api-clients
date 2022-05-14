@@ -1,0 +1,16 @@
+# stacks_blockchain_api_client.model.AddressUnlockSchedule
+
+## Load the model package
+```dart
+import 'package:stacks_blockchain_api_client/api.dart';
+```
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**amount** | **String** | Micro-STX amount locked at this block height. | 
+**blockHeight** | **num** |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
